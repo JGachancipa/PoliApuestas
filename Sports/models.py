@@ -1,5 +1,6 @@
 from django.db import models
 
+# Modelo de Campeonatos
 class Championship(models.Model):
     name = models.CharField(max_length=50, verbose_name='Name', null= False)
     sport = models.IntegerField(verbose_name='Sport', null= False)
