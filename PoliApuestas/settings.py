@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'Sports',
     'Tickets',
     'Lottery',
+    'Athletics',
     'Payments',
     'LandingPage',
     'corsheaders',
