@@ -19,6 +19,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'AdwardsPublications',
     'Bet',
     'PQR',
     'Login',
@@ -81,9 +82,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'PoliApuestas',
         'USER': 'root',
-        'PASSWORD': '$3Ba$05.',
+        'PASSWORD': 'e389fguru',
         'HOST': 'localhost',
-        'PORT': '',
+        'PORT': '3306',
     }
 }
 
