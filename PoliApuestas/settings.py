@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     'Sports',
     'Tickets',
     'Lottery',
+    'Athletics',
     'Payments',
     'LandingPage',
     'corsheaders',
@@ -86,7 +87,8 @@ DATABASES = {
         'HOST': 'localhost',
         'PORT': '3306',
     }
-}
+    }
+
 
 
 # Password validation
