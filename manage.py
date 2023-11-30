@@ -2,7 +2,7 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-import pymysql  # Importa el módulo pymysql
+#import pymysql  # Importa el módulo pymysql
 
 def main():
     """Run administrative tasks."""
@@ -10,7 +10,7 @@ def main():
 
     try:
         # Asegúrate de que Django use pymysql como el adaptador MySQL
-        pymysql.install_as_MySQLdb()
+        #pymysql.install_as_MySQLdb()
         
         from django.core.management import execute_from_command_line
     except ImportError as exc:

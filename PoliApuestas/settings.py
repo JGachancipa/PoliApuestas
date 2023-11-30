@@ -19,7 +19,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'SalesResults',
     'AdwardsPublications',
+    'AdwardsPublicationsBet',
     'Bet',
     'PQR',
     'Login',

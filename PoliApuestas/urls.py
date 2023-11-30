@@ -8,4 +8,6 @@ urlpatterns = [
     path('1/', include('Prize.urls')),
     path('sports/', include ('Athletics.urls')),
     path('adwards_publications/', include('AdwardsPublications.urls')),
+    path('adwards_publications_bet/', include('AdwardsPublicationsBet.urls')),
+    path('sales_results/', include('SalesResults.urls')),
 ]
