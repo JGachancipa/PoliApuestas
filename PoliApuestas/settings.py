@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'coreapi'
 ]
 
 MIDDLEWARE = [
@@ -85,7 +86,11 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'PoliApuestas',
         'USER': 'root',
+<<<<<<< HEAD
         'PASSWORD': 'e389fguru',
+=======
+        'PASSWORD': '',
+>>>>>>> 6df3c703e08ed5a4d573aa46cce11fa63b074135
         'HOST': 'localhost',
         'PORT': '3306',
     }
@@ -134,6 +139,8 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-]
+CORS_ALLOWED_ORIGINS = ["http://localhost:3000"]
+
+REST_FRAMEWORK = {
+    'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema',
+}
